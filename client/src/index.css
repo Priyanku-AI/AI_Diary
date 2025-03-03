@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 @theme {
   --color-primary: #4A90E2; /* Soft Blue */
   --color-secondary: #50E3C2; /* Mint Green */
