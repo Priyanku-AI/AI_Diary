@@ -1,0 +1,22 @@
+@theme {
+  --color-primary: #4a90e2; /* Soft Blue */
+  --color-secondary: #50e3c2; /* Mint Green */
+  --color-background: #f5f7fa; /* Light Gray */
+  --color-text: #2c3e50; /* Dark Gray */
+  --color-muted: #7f8c8d; /* Gray */
+  --color-error: #e74c3c; /* Soft Red */
+  --color-happy: #f1c40f; /* Yellow */
+  --color-sad: #3498db; /* Blue */
+  --color-neutral: #7f8c8d; /* Gray */
+  --color-angry: #e74c3c; /* Red */
+  --color-excited: #9b59b6; /* Purple */
+
+  --font-sans: "Inter", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}

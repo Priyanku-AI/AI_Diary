@@ -1,8 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import GlobalBackground from './components/common/GlobalBackground';
+// import Home from './pages/Home';
+
 function App() {
   return (
-    <div className="bg-primary text-white p-4">
-      Tailwind CSS is working with custom colors!
-    </div>
+    <Router>
+    <GlobalBackground>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        {/* <Route path="/home" element={<Home />} /> */}
+      </Routes>
+      </GlobalBackground>
+    </Router>
   );
 }
 
