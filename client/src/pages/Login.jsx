@@ -213,14 +213,6 @@ const Login = () => {
           </form>
         )}
         
-        <div className="mt-8 text-center">
-          <p className="text-[#8E8E93] text-sm">
-            Don't have an account?{' '}
-            <a href="#" className="text-[#4CAF50] hover:text-[#43A047] font-medium transition-colors">
-              Sign up
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
